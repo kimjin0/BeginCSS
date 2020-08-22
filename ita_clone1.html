@@ -4,10 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{box-sizing:border-box;}
+        .container{
+            max-width: 1200px; margin-left:auto, margin-right:auto
+        }
+        .container, header, footer, article div {
+            border :1px solid tomato
+        }
+        header, footer {margin:15px; padding:20px}
+        article {
+            display:flex;
+            flex-wrap:wrap;
+            margin:8px;
+        }
+        article div{
+            flex:1;
+            padding:20px;
+            margin-left:7px;
+            margin-right:7px;
+        }
+        article .content{
+            flex:4;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <headr>IT Academy</headr>
+        <header>
+            <h1>IT Academy</h1>
+        </header>
+        <article>
+            <div>
+                <h2>Sidebar</h2>
+                <ul>
+                    <li>메뉴 1</li>
+                    <li>메뉴 2</li>
+                    <li>메뉴 3</li>
+                </ul>
+            </div>
+            <div class="content">
+                <h1>Title</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eos, est veritatis eveniet magni, necessitatibus suscipit sint consectetur, perspiciatis eius ex sunt laudantium asperiores accusamus maiores ea fugiat debitis nisi?
+                Perferendis iste autem odio quaerat provident, consequuntur molestias, voluptatem cumque aliquid praesentium explicabo nulla? Dolor, aut voluptatem assumenda, fugiat ex, beatae obcaecati mollitia corrupti asperiores modi sint officia ipsam accusamus!
+                Sapiente necessitatibus deleniti praesentium minus, laboriosam odio consequatur quaerat error! Dolorem animi nemo blanditiis nostrum, ea magni corporis molestias laborum minima assumenda deserunt nihil laboriosam, excepturi eius saepe dolorum voluptatum.
+                Laboriosam eaque excepturi aliquid magni iste vitae reprehenderit, fugit, quos quisquam possimus pariatur veritatis consequatur, iusto distinctio ipsa velit cupiditate earum quae veniam rerum. Aut quaerat doloribus iure labore autem.
+                Inventore, unde possimus? Alias, et eveniet, reiciendis necessitatibus earum ut expedita minima voluptatibus in officia ratione nisi quod aliquid suscipit aspernatur odio ducimus assumenda magnam eos doloribus aliquam quaerat veritatis?
+                Sunt laudantium ex, laborum odio velit repellat quod, tempora dolor, quasi est aspernatur. Officiis id quisquam ratione cumque commodi corporis, facilis adipisci, recusandae, accusamus sit cum vero repellat odio! Doloribus?
+                Error quasi iusto quae earum quidem. Hic ipsam similique error ratione fuga, eos quos vitae, quia deserunt veniam deleniti, vel perferendis? Quam recusandae distinctio consectetur natus neque quibusdam, similique maiores!
+                Quo pariatur omnis veritatis architecto sequi eius dolor odio. Cupiditate molestiae, magni quidem doloremque ut nostrum? Consequatur suscipit vel voluptate facere. Illo pariatur aliquam quas tempora obcaecati quia mollitia adipisci.
+                Iure dolorem eum autem veritatis quibusdam dolore, tempora repellendus recusandae sequi ex hic laudantium laborum aspernatur velit dolores quidem expedita sint possimus labore voluptatibus. Porro numquam perspiciatis architecto odit nemo!
+                Ullam fugit harum ab ducimus porro itaque blanditiis eaque id, aspernatur maxime beatae cupiditate aliquam, quo minima reprehenderit non doloremque dolorum alias exercitationem fuga rerum quae, eum ex vitae! Aperiam?</p>
+            </div>
+            <div>
+                <h2>Sidebar</h2>
+                <ul>
+                    <li>메뉴1</li>
+                    <li>메뉴2</li>
+                    <li>메뉴3</li>
+                </ul>
+            </div>
+        </article>
+        <footer>
+            <div>Copyright</div>
+        </footer>
     </div>
 </body>
 </html>
